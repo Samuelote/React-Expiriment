@@ -23,7 +23,17 @@
     "webpack-dev-server": "^3.1.14"
   },
   "dependencies": {
+    "@tensorflow/tfjs": "^0.15.3",
+    "@tensorflow/tfjs-node": "^0.3.1",
+    "@tensorflow/tfjs-node-gpu": "^0.3.1",
+    "axios": "^0.18.0",
+    "bluetooth-serial-port": "^2.2.2",
+    "chromecast-api": "^0.2.5",
+    "noble": "^1.9.1",
+    "pkg": "^4.3.7",
+    "prop-types": "^15.7.2",
     "react": "^16.8.2",
+    "react-axios": "^2.0.3",
     "react-dom": "^16.8.2",
     "react-hot-loader": "^4.6.5"
   }

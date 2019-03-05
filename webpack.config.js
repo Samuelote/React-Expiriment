@@ -1,5 +1,7 @@
 const path = require("path");
 const webpack = require("webpack");
+const tf = require('@tensorflow/tfjs')
+
 
 module.exports = {
   entry: "./src/index.js",
@@ -32,3 +34,4 @@ module.exports = {
   },
   plugins: [new webpack.HotModuleReplacementPlugin()]
 };
+ 
